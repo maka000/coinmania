@@ -45,28 +45,3 @@ body{
     -moz-box-shadow: 20px 20px 50px -33px rgba(117,133,133,1);
     box-shadow: 20px 20px 50px -33px rgba(117,133,133,1);
 }
-@media screen and (max-width: 1275px) {
-    .cards-box{
-        display: flex;
-        justify-content: center;
-    }
-    /* .message-box{
-        display: flex;
-        justify-content: center;
-    } */
-    .logo {
-          padding: 0px !important;
-          margin: 0px !important;
-    }
-    .navbar-brand img{
-        width: 160px;
-      
-    }
-  }
-  @media screen and (max-width: 775px) {
-  .message-box{
-        display: flex;
-        justify-content: center;
-    }
-
-  }
