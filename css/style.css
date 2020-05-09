@@ -1,0 +1,72 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.green{
+    color: #26EA9A !important;
+}
+.svg-green{
+    fill: #26EA9A;
+}
+.svg-white{
+    fill: #ffffff;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-35{
+    font-size: 35px;
+}
+.bg-green{
+    background-color: #26EA9A;
+}
+.bg-aqua{
+    background-color: #DCFFF1;
+}
+.border-none{
+    border: none;
+}
+.radius-20{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.card-box{
+    border-radius: 20px;
+    border: none;
+    -webkit-box-shadow: 10px 18px 30px 0px rgba(220,221,237,1);
+    -moz-box-shadow: 10px 18px 30px 0px rgba(220,221,237,1);
+    box-shadow: 10px 18px 30px 0px rgba(220,221,237,1);
+}
+
+.left-side-shadow{
+    -webkit-box-shadow: 20px 20px 50px -33px rgba(117,133,133,1);
+    -moz-box-shadow: 20px 20px 50px -33px rgba(117,133,133,1);
+    box-shadow: 20px 20px 50px -33px rgba(117,133,133,1);
+}
+@media screen and (max-width: 1275px) {
+    .cards-box{
+        display: flex;
+        justify-content: center;
+    }
+    /* .message-box{
+        display: flex;
+        justify-content: center;
+    } */
+    .logo {
+          padding: 0px !important;
+          margin: 0px !important;
+    }
+    .navbar-brand img{
+        width: 160px;
+      
+    }
+  }
+  @media screen and (max-width: 775px) {
+  .message-box{
+        display: flex;
+        justify-content: center;
+    }
+
+  }
